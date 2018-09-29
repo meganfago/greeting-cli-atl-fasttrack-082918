@@ -4,6 +4,7 @@ def greeting(name)
 end
 
 x = (name)
+gets.chomp(x)
 
 
 
