@@ -5,4 +5,5 @@ require_relative "../lib/greeting.rb"
 
 learn spec/02_cli_spec.rb
 puts "Hi Hal, What's your name?"
-gets.strip= name
+name= gets.chomp
+
